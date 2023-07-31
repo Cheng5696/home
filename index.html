@@ -2,31 +2,31 @@
 <html lang="en">
 <head> 
     <meta charset="UTF-8">
-    <title>CC的主页</title>
     <style>
-    body {
-	    cursor: url("./plane.png"), default;
-    }
-    select{
-	    cursor: url("./plane.png"), pointer;
-    }
-    button,a:hover{
-	cursor: url("./plane.png"), pointer;
-    }
-    input{
-        cursor:url("./plane.png"), text;
-    }
-    textarea,input:focus{
-        cursor:url("./plane.png"), text;
-    }
-    code{
-        cursor: url("./plane.png"), default;
-    }
-        body {background-image:url(http://img9.vilipix.com/user/addition/1000206083/1642346277097_ort1642346264295.jpg);
+		body {
+			cursor: url("./plane.png"), default;
+		}
+		select{
+			cursor: url("./plane.png"), pointer;
+		}
+		button,a:hover{
+		cursor: url("./plane.png"), pointer;
+		}
+		input{
+			cursor:url("./plane.png"), text;
+		}
+		textarea,input:focus{
+			cursor:url("./plane.png"), text;
+		}
+		code{
+			cursor: url("./plane.png"), default;
+		}
+		
+        body {background-image:url(images/1.jpg);
             background-repeat:no-repeat; /*设置背景图片的重复方式*/
             background-position:top; /*背景图片的起始位置*/
             background-position:x-axis; /*左侧和顶部的偏移量*/
-            background-size:contain;  /*置背景图片的大小*/}
+            background-size:cover;  /*置背景图片的大小*/}
         table {border: 0px}
         tr.category td { font-size: 1.1em; background-color: rgb(142,170,219,0.5); }
         .w1 {width: 30%;  border-collapse: collapse;
@@ -36,6 +36,7 @@
             border-collapse: collapse; /*合并表格边框*/
             border-radius: 10px;t /*设置圆角半径*/; /*隐藏溢出内容*/}
         .w2 {border-collapse: collapse;
+			color:#DDDDDD;
             border: 1px solid #ccc;
              d-color: #f5f5f5
             tilys-serif;t-size: 14px;
@@ -50,14 +51,13 @@
 			text-decoration:none;
 		}
 		audio{float: right
-		   
+	
         }
     </style>
 
 </head>
 
 <body>
-    <h1>CC的主页</h1>
     <audio autoplay="autopaly" loop="loop" controls="controls" id="audios">
         <source src="http://music.163.com/song/media/outer/url?id=447925558.mp3" type="audio/mp3" />
     </audio>
@@ -354,6 +354,8 @@
             <td class='w2'>卢松松博客</td>
         </tr>
     </table>
+	
+	<h5 style="color:red; float: right">power by CC</h5>
 </body>
 </html>
 
